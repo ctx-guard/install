@@ -14,8 +14,8 @@
 # runs nothing.
 set -euo pipefail
 
-VERSION="${CTX_GUARD_VERSION:-0.10.0}"
-SHA256="${CTX_GUARD_SHA256:-ea243d897c40a862543c4693746ce481463aa4657e5538f8bc663900a5f6541a}"
+VERSION="${CTX_GUARD_VERSION:-0.11.0}"
+SHA256="${CTX_GUARD_SHA256:-bb11c2007e8229bb85f31fdfadc09dc61156fc91b115e9668dfc487c1086239a}"
 REPO="https://github.com/viktor-tapovski/ctx-guard"
 TARBALL_URL="${CTX_GUARD_TARBALL_URL:-$REPO/releases/download/v$VERSION/ctx-guard-$VERSION.tar.gz}"
 
